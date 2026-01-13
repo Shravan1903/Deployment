@@ -40,7 +40,7 @@ jobs:
 
       - name: Upload infrastructure outputs to S3
         env:
-          BUCKET_NAME: "expensetrackerinfra-${{ secrets.AWS_ACCOUNT_ID }}"
+          BUCKET_NAME: "expensetrackerinfra-shravan"
         run: |
           set -e
 
