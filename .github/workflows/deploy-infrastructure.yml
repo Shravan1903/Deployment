@@ -7,7 +7,7 @@ on:
 
 env:
  AWS_REGION: ap-south-1
-
+ 
 jobs:
  deploy-infrastructure:
    runs-on: ubuntu-latest
